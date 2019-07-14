@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function isEmail(str) {
+        var regexp = /^[A-Za-z]+[A-Za-z0-9]*@[A-Za-z]+(\.[A-Za-z]+)$/;
+        return regexp.test(str);
+    }
+    let c=prompt("nhap email");
+   console.log(isEmail(c));
+</script>
+</body>
+</html>
